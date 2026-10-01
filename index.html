@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Game Log - Cerca videogiochi</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Game Log</h1>
+            <p>Lista titoli</p>
+        </header>
+        <main>
+            <form role="search">
+                <label for="ricerca">cerca per titolo</label>
+                <input type="search" id="ricerca">
+                <label for="filtro">filtra per stato </label>
+                <select id="filtro">
+                    <option value="">Tutti</option>
+                    <option value="Da giocare">Da giocare</option>
+                    <option value="In corso">In corso</option>
+                    <option value="Finito">Finito</option>
+                </select>
+            </form>
+            <h2>Risultati</h2>
+            <p id="contatore" aria-live="polite">caricamento</p>
+            <ul id="lista-giochi"></ul>
+        </main>
+        <footer>
+            <p>Giacomo Majolino</p>
+            <a href="https://github.com/giamajo/game-log">Codice su Git Hub</a>
+        </footer>
+    </body>
+</html>
