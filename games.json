@@ -1,14 +1,14 @@
 [
-    {"id":1,"titolo":"Persona 5", "Genere":"JRPG", "Anno":"2017", "Stato":"Finito" },
-    {"id":2,"titolo":"Bloodborne", "Genere":"Action-Rpg", "Anno":"2015", "Stato":"Finito" },
-    {"id":3,"titolo":"Balatro", "Genere":"Roguelike", "Anno":"2024", "Stato":"In Corso" },
-    {"id":4,"titolo":"Monster Hunter Wilds", "Genere":"Action-Rpg", "Anno":"2025", "Stato":"In Corso" },
-    {"id":5,"titolo":"Batomon", "Genere":"Roguelike", "Anno":"2026", "Stato":"Da Giocare" },
-    {"id":6,"titolo":"Marvel's Spider-Man 2", "Genere":"Action", "Anno":"2023", "Stato":"Da Giocare" },
-    {"id":7,"titolo":"Warhammer Survivors", "Genere":"Roguelike", "Anno":"2026", "Stato":"Da Giocare" },
-    {"id":8,"titolo":"Hades", "Genere":"Roguelike", "Anno":"2020", "Stato":"Finito" },
-    {"id":9,"titolo":"Sekiro:Shadow's die twice", "Genere":"Action", "Anno":"2019", "Stato":"Da Giocare" },
-    {"id":10,"titolo":"The Blood of the Dawnwalker", "Genere":"Action", "Anno":"2026", "Stato":"Da Giocare" },
-    {"id":11,"titolo":"Red Dead Redemption", "Genere":"Action", "Anno":"2019", "Stato":"In Corso" },
-    {"id":12,"titolo":"Final Fantasy 16", "Genere":"JRPG", "Anno":"2023", "Stato":"Da Giocare" }
+    {"id":1,"titolo":"Persona 5", "genere":"JRPG", "anno":2017, "stato":"Finito" },
+    {"id":2,"titolo":"Bloodborne", "genere":"Action-Rpg", "anno":2015, "stato":"Finito" },
+    {"id":3,"titolo":"Balatro", "genere":"Roguelike", "anno":2024, "stato":"In corso" },
+    {"id":4,"titolo":"Monster Hunter Wilds", "genere":"Action-Rpg", "anno":2025, "stato":"In corso" },
+    {"id":5,"titolo":"Batomon", "genere":"Roguelike", "anno":2026, "stato":"Da giocare" },
+    {"id":6,"titolo":"Marvel's Spider-Man 2", "genere":"Action", "anno":2023, "stato":"Da giocare" },
+    {"id":7,"titolo":"Warhammer Survivors", "genere":"Roguelike", "anno":2026, "stato":"Da giocare" },
+    {"id":8,"titolo":"Hades", "genere":"Roguelike", "anno":2020, "stato":"Finito" },
+    {"id":9,"titolo":"Sekiro:Shadows die twice", "genere":"Action", "anno":2019, "stato":"Da giocare" },
+    {"id":10,"titolo":"The Blood of the Dawnwalker", "genere":"Action", "anno":2026, "stato":"Da giocare" },
+    {"id":11,"titolo":"Red Dead Redemption 2", "genere":"Action", "anno":2018, "stato":"In corso" },
+    {"id":12,"titolo":"Final Fantasy XVI", "genere":"JRPG", "anno":2023, "stato":"Da giocare" }
 ]
