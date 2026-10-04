@@ -1,5 +1,6 @@
 const contatore = document.getElementById("contatore");
 const lista = document.getElementById("lista-giochi");
+
 function mostraGiochi(giochi) {
     lista.textContent = "";
     for (const gioco of giochi) {
@@ -14,6 +15,7 @@ function mostraGiochi(giochi) {
     }
     contatore.textContent = giochi.length + " giochi";
 }
+
 async function caricaGiochi() {
     try  {
         const risposta = await fetch("games.json");
@@ -28,4 +30,5 @@ async function caricaGiochi() {
         console.error(errore);
     }
 }
+
 caricaGiochi();
