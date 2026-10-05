@@ -9,6 +9,7 @@ function mostraGiochi(giochi) {
     lista.textContent = "";
     for (const gioco of giochi) {
         const voce = document.createElement("li");
+        voce.classList.add("scheda");
         const intestazione = document.createElement("h3");
         intestazione.textContent = gioco.titolo;
         const dettagli = document.createElement("p");

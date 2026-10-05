@@ -13,20 +13,24 @@
             <p>Lista titoli</p>
         </header>
         <main>
-            <form role="search" id="modulo-ricerca">
-                <label for="ricerca">Cerca per titolo</label>
-                <input type="search" id="ricerca">
-                <label for="filtro">Filtra per stato </label>
-                <select id="filtro">
+            <form role="search" id="modulo-ricerca" class="filtri">
+                <div class="campo"> 
+                    <label for="ricerca">Cerca per titolo</label>
+                    <input type="search" id="ricerca">   
+                </div>
+                <div class="campo"> 
+                    <label for="filtro">Filtra per stato </label>
+                    <select id="filtro">   
                     <option value="">Tutti</option>
                     <option value="Da giocare">Da giocare</option>
                     <option value="In corso">In corso</option>
                     <option value="Finito">Finito</option>
-                </select>
+                    </select>
+                </div>
             </form>
             <h2>Risultati</h2>
             <p id="contatore" aria-live="polite">Caricamento...</p>
-            <ul id="lista-giochi"></ul>
+            <ul id="lista-giochi" class="griglia"></ul>
         </main>
         <footer>
             <p>Giacomo Majolino</p>
